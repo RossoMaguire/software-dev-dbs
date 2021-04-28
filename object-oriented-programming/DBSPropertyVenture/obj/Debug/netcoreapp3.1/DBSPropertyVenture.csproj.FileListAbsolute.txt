@@ -1,0 +1,26 @@
+C:\Users\Ross\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.exe
+C:\Users\Ross\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.deps.json
+C:\Users\Ross\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.runtimeconfig.json
+C:\Users\Ross\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.runtimeconfig.dev.json
+C:\Users\Ross\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.dll
+C:\Users\Ross\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.pdb
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.csprojAssemblyReference.cache
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.AssemblyInfoInputs.cache
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.AssemblyInfo.cs
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.csproj.CoreCompileInputs.cache
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.dll
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.pdb
+C:\Users\Ross\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.genruntimeconfig.cache
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.exe
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.deps.json
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.runtimeconfig.json
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.runtimeconfig.dev.json
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.dll
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\bin\Debug\netcoreapp3.1\DBSPropertyVenture.pdb
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.csprojAssemblyReference.cache
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.AssemblyInfoInputs.cache
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.AssemblyInfo.cs
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.csproj.CoreCompileInputs.cache
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.dll
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.pdb
+C:\Users\Ross Maguire\source\repos\DBSPropertyVenture\obj\Debug\netcoreapp3.1\DBSPropertyVenture.genruntimeconfig.cache

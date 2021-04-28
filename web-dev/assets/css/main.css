@@ -1,0 +1,583 @@
+/* NB!!!
+When testing responsivness in browser please use the device emulator in dev tools as it doesnt work when
+just resizing the window, I think because I am using 'max-DEVICE-width' */
+
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html, body{
+margin: 0;
+font-family: 'Roboto';
+}
+
+h1 {
+font-size:32px;
+font-family: 'Aclonica';
+}
+
+h2 {
+margin-bottom: 10px;
+font-family: 'Aclonica';
+}
+
+
+p {
+font-size: 18px;
+
+}
+
+
+.heading, .sub-heading {
+font-family: 'Aclonica';
+font-weight: lighter;
+}
+
+/* WRAPPER ELEMENTS */
+
+section {
+padding: 80px 80px 0px 80px;
+}
+
+.inner-wrapper {
+width:80%;
+margin: 0 auto;
+padding: 0px 23px 0px 23px;
+display:table;
+
+}
+
+.inner-wrapper .promo {
+padding-top: 10%;
+}
+
+.outer-wrapper {
+padding: 30px 0px 130px 0px;
+display:table;
+width: 100%;
+}
+
+.outer-wrapper .fullscreen-left, .outer-wrapper .fullscreen-right {
+height: 415px;
+width: 50%;
+float:left;
+}
+
+.outer-wrapper .fullscreen-left {
+background-image: url('../images/galway-bay-seafront.jpg');
+background-position:left;
+}
+
+.outer-wrapper .fullscreen-right {
+background-color: #FFF5CC8F;
+}
+
+
+/* HEADER | HERO */
+header{
+float: left;
+width: 100%;
+background: #CAEEFE;
+position:fixed;
+z-index:9999999;
+
+}
+
+header .logo {
+float:left;
+font-size: 29px;
+padding: 23px 0px 23px 0px;
+font-family: 'Aclonica';
+transition: 0.3s;
+text-decoration:underline;
+}
+
+.hero {
+background-image: url("../images/hero-image.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position: top;
+width:100%;
+float:left;
+height:500px;
+position:relative;
+
+}
+
+.hero .intro {
+position: absolute;
+top: 30%;
+background-color: #FFF5CC78;
+padding: 40px;
+width: 33%;
+}
+
+.hero .intro:hover {
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.hero .inner-wrapper {
+width:75%;
+}
+
+.hero .heading {
+font-size:40px;
+margin-bottom: 10px;
+
+}
+
+.hero .sub-heading {
+font-size:21px;
+}
+
+#about.hero {
+background-image: url("../images/about/galway-bay-hero.jpg");
+background-position: center;
+height:350px;
+}
+
+#services.hero {
+background-image: url("../images/services/galway-beach.jpg");
+background-position: top;
+height:350px;
+}
+
+#contact.hero {
+background-image: url("../images/contact/porch-view-hero.jpg");
+background-position: center;
+height:350px;
+}
+
+/* NAV LINKS */
+
+ul.nav-links{
+float: right;
+border-right: 1px dotted #958546;
+
+}
+li.current{
+background: #73acc6a1;
+color: #fff;
+}
+a:link li.nav-link-button, .logo a:link{
+color: black;
+background: #CAEEFE;
+}
+a:visited li.nav-link-button, .logo a:visited{
+color: black;
+background: #CAEEFE;
+text-decoration:none;
+}
+a:hover li.nav-link-button {
+color: white;
+background: #73acc6a1;
+}
+a:active li.nav-link-button{
+color: white;
+background: #CAEEFE;
+}
+li.nav-link-button{
+display: inline;
+list-style-type: none;
+float: left;
+width: 100px;
+text-align: center;
+border-left: 1px dotted #958546;
+font-size: 17px;
+display: inline-block;
+padding:29px 0px 29px 0px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+min-height:100vh;
+}
+.main-content .inner-wrapper {
+width:1220px;
+}
+
+.main-content .outer-wrapper .inner-wrapper {
+    width:80%;
+}
+
+.main-content h1 {
+text-align:center;
+}
+
+.main-content .home-description{
+text-align:center;
+line-height: 32px;
+margin: 20px 0px 20px 0px;
+}
+.main-content .about-description, .services-description {
+line-height: 32px;
+}
+#services {
+display: table;
+width: 100%;
+
+}
+
+#services .services-box {
+width:25%;
+float:left;
+padding:10px;
+transition: box-shadow .3s;
+
+}
+
+#services .services-box:hover {
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+
+#services .services-box-inner {
+border: 1px solid #8080803d;
+}
+
+#services .services-box-inner img {
+    width:100%;
+    height: 175px;
+    opacity: 0.8;
+    margin-bottom:20px;
+}
+
+#services .services-box-content {
+background-color: #8080800f;
+}
+
+#services .services-box-content .description {
+min-height: 160px;
+}
+
+
+#services .services-box-inner .button-container button {
+margin-top:0px;
+}
+
+#services .services-box-content .description p, .services-box-inner .button-container {
+padding: 0px 20px 20px 20px;
+}
+
+#services .services-box-content .heading {
+font-size: 24px;
+
+}
+
+#services .services-box-content .button-container button {
+margin:0 auto;
+}
+
+#partners .heading {
+text-align:center;
+font-size:32px;
+}
+
+#partners  .partner-logos {
+display:flex;
+margin-top:60px;
+}
+
+#partners  .partner-logos .logo-col {
+width: 25%;
+}
+
+#partners  .partner-logos .logo-col img {
+width:100%;
+}
+
+.about-description, .services-description, .contact-description {
+margin: 40px 0px 20px 0px;
+}
+
+.contact-description {
+display: flex;
+}
+
+.promo p {
+width: 70%;
+margin: 1em 0;
+}
+
+.services-item p, .about-description p, .contact-description p, footer p {
+margin: 1em 0;
+}
+
+.services-item img, .about-description img {
+float: right;
+width: 55%;
+padding: 0px 40px 10px 40px;
+}
+
+
+/* FORM */
+#contact-form, #sent-message {
+width:60%;
+float:left;
+padding: 20px;
+border-right: 1px solid #0000001a;
+}
+
+#contact-form p {
+padding: 20px 20px 20px 0px;
+}
+
+#contact-info {
+padding: 20px;
+}
+
+#contact-info ul {
+list-style-type:none;
+margin:0;
+padding:0;
+margin-bottom:40px;
+}
+
+#contact-info ul li {
+margin-top: 15px;
+}
+
+#sent-message {
+display:none;
+}
+
+input[type=text], input[type=email], textarea {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+/* OTHER */
+#mobile-menu {
+display:none;
+transition: 0.3s;
+}
+
+#hamburger {
+    display:none;
+}
+
+button {
+padding:10px;
+width:180px;
+background-color: rgb(31,42,55);
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size:16px;
+cursor: pointer;
+margin-top:20px;
+border:1px solid rgb(31,42,55);
+transition: 0.3s;
+
+}
+button:hover {
+background-color:white;
+border:1px solid rgb(31,42,55);
+color: rgb(31,42,55);
+opacity: 1;
+}
+
+.sticky-nav-border {
+box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.71);
+height:60px;
+}
+
+.sticky-nav-shrink {
+padding: 21px 0px 29px 0px!important;
+font-size: 16px !important;
+height:60px;
+}
+
+.star {
+color: red;
+}
+
+.tripadvisor {
+    float: right;
+    height: 90px;
+    margin-top: 65px;
+}
+
+.breadcrumbs ul {
+display:inline;
+list-style-type:none;
+margin: 0;
+padding: 0
+}
+
+.breadcrumbs ul li {
+display:inline;
+border-right: 1px solid black;
+padding:0px 10px 0px 10px;
+margin-top:10px;
+}
+
+.breadcrumbs ul li:nth-child(1) {
+padding:0px 10px 0px 0px;
+}
+
+.about-separator {
+width: 100%;
+text-align: left;
+padding: 60px;
+}
+
+.separator {
+width: 100%;
+text-align: center;
+padding: 60px;
+}
+
+.about-separator img, .separator img {
+height: 75px;
+}
+
+
+.intro-line {
+    font-size: 33px;
+    margin-left: 0;
+    font-family: 'Aclonica';
+}
+
+#error-msg {
+display:none;
+color:red;
+margin-top:20px;
+}
+
+
+#footer-initial {
+margin-top: 100px;
+}
+
+
+#footer-initial:before {
+content: ' ';
+display: block;
+height: 160px;
+z-index: 1;
+float: left;
+width: 100%;
+background-image: url('../images/footer-bg.png');
+background-position: right;
+}
+
+footer{
+float: left;
+width: 100%;
+height: 200px;
+color: #fff;
+box-sizing: border-box;
+overflow: hidden;
+background-color: #0064a6;
+
+}
+
+footer .social-logos {
+list-style-type:none;
+display:inline;
+}
+
+footer .social-logos img {
+height:40px;
+}
+
+/* RESPONSIVE */
+/* MOBILE & TABLET */
+@media screen and (max-device-width: 768px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    header .logo {
+        font-size: 18px;
+        width: 55%;
+    }
+
+    section {
+        padding: 80px 0px 0px 0px;
+    }
+
+    #hamburger {
+        height: 60px;
+        float: right;
+        margin-top: 11px;
+        opacity: 0.7;
+        display:block;
+        cursor: pointer;
+    }
+
+    #mobile-menu {
+        width: 50%;
+        border: none;
+        position: fixed;
+        top: 72px;
+        z-index: 9999999999;
+        float: right;
+        right: 0px;
+    }
+
+    #mobile-menu li.nav-link-button{
+        display: block;
+        list-style-type: none;
+        float: none;
+        width: 100%;
+        text-align: center;
+        border: none;
+        font-size: 17px;
+        padding:29px 0px 29px 0px;
+    }
+
+    #desktop-menu, #partners, .outer-wrapper {
+        display:none;
+    }
+
+    #contact-form, #sent-message, .promo p {
+        width:100%;
+    }
+
+    #services .services-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #services .services-box-inner img, .main-content  {
+        height: auto;
+    }
+
+    .hero .intro {
+        width:100%!important;
+        position:relative!important;
+        margin-top: 170px;
+    }
+
+    .services-item img, .about-description img {
+        float: right;
+        width: 100%;
+        padding: 40px;
+    }
+
+
+    .main-content .inner-wrapper {
+        width: 90%;
+    }
+
+    .contact-description {
+        display:block;
+    }
+
+    .tripadvisor {
+        height: 35px;
+    }
+
+}
