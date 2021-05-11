@@ -6,13 +6,13 @@ Working model can be found at: https://condescending-swartz-55270e.netlify.app/i
 
 
 
-![ScreenShot](https://raw.github.com/RossoMaguire/dbs-software-dev/master/web-dev/assets/images/screen-home.jpg)
+![ScreenShot](https://raw.github.com/RossoMaguire/software-dev-dbs/master/web-dev/assets/images/screen-home.jpg)
 
 
-![ScreenShot](https://raw.github.com/RossoMaguire/dbs-software-dev/master/web-dev/assets/images/screen-about.jpg)
+![ScreenShot](https://raw.github.com/RossoMaguire/software-dev-dbsmaster/web-dev/assets/images/screen-about.jpg)
 
 
-![ScreenShot](https://raw.github.com/RossoMaguire/dbs-software-dev/master/web-dev/assets/images/screen-contact.png)
+![ScreenShot](https://raw.github.com/RossoMaguire/software-dev-dbs/master/web-dev/assets/images/screen-contact.png)
 
 
 
